@@ -1,0 +1,27 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.25",
+   "Default View_TopLeft":"-494,-114",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port M00_AXI -pg 1 -lvl 2 -x 380 -y 180 -defaultsOSRD
+preplace port M01_AXI -pg 1 -lvl 2 -x 380 -y 200 -defaultsOSRD
+preplace port M02_AXI -pg 1 -lvl 2 -x 380 -y 220 -defaultsOSRD
+preplace port S00_AXI -pg 1 -lvl 0 -x -20 -y 60 -defaultsOSRD
+preplace port S01_AXI -pg 1 -lvl 0 -x -20 -y 80 -defaultsOSRD
+preplace port ACLK -pg 1 -lvl 0 -x -20 -y 100 -defaultsOSRD
+preplace port ARESETN -pg 1 -lvl 0 -x -20 -y 120 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 1 -x 180 -y 230 -defaultsOSRD
+preplace netloc ACLK_1 1 0 1 10 100n
+preplace netloc ARESETN_1 1 0 1 0 120n
+preplace netloc S00_AXI_1 1 0 1 30J 60n
+preplace netloc S01_AXI_1 1 0 1 20J 80n
+preplace netloc axi_interconnect_0_M00_AXI 1 1 1 320J 180n
+preplace netloc axi_interconnect_0_M01_AXI 1 1 1 330J 200n
+preplace netloc axi_interconnect_0_M02_AXI 1 1 1 340J 220n
+levelinfo -pg 1 -20 180 380
+pagesize -pg 1 -db -bbox -sgen -120 0 480 440
+"
+}
+0
