@@ -3,3 +3,5 @@ This repo includes the SystemVerilog source code of an accelerator for 3rd Gen F
 This repo is only intended for usage with AWS F1 instance, please make sure you have the correct environment setup.
 It is currently under close maintenance and will get more in good shape in the future. 
 Please contact Admin in case of licence issues.
+
+It is now anonymized for conference review.
